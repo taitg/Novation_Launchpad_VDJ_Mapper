@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper device="Launchpad" author="Novation" description="Novation Launchpad" version="705" date="09/01/2012">
+  <map value="LED_R_1-1" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck left effect &quot;flanger&quot; active ? on : off : deck left effect select &quot;flanger&quot; ? on : off : off" />
+  <map value="LED_R_1-2" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck left effect &quot;FlippinDouble&quot; active ? on : off : deck left effect select &quot;FlippinDouble&quot; ? on : off : var &quot;$lpmode&quot; 1 ? deck left cue_stop ? on : off" />
+  <map value="LED_A_1-2" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 2 ? on : off : off : off" />
+  <map value="LED_R_1-3" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck left effect &quot;dsp_Distorter&quot; active ? on : off : deck left effect select &quot;dsp_Distorter&quot; ? on : off : " />
+  <map value="LED_R_1-4" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck left effect &quot;Cut&quot; active ? on : off : deck left effect select &quot;Cut&quot; ? on : off : off" />
+  <map value="LED_Y_1-4" action="var &quot;$lpmode&quot; 1 ? deck left volume 100% ? on : off : off" />
+  <map value="LED_Y_1-5" action="var &quot;$lpmode&quot; 1 ? deck right volume 100% ? on : off : off" />
+  <map value="LED_G_1-5" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 5 play ? on : off : off : off" />
+  <map value="LED_G_1-3" action="var &quot;$lpmode&quot; 1 ? deck left loaded ? deck left play ? on : deck left cue ? off : on blink : off : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 3 play ? on : off : off : off" />
+  <map value="LED_G_1-7" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 7 play ? on : off : off : off" />
+  <map value="LED_A_1-7" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 7 ? on : off : off : off" />
+  <map value="LED_G_1-8" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 8 play ? on : off : off : off" />
+  <map value="LED_R_2-1" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck left effect &quot;FlanJet&quot; active ? on : off : deck left effect select &quot;FlanJet&quot; ? on : off : off" />
+  <map value="LED_G_2-1" action="var &quot;$lpmode&quot; 1 ? deck left eq_high 87% ? on : off : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 9 play ? on : off : off : off" />
+  <map value="LED_R_2-2" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck left effect &quot;beatgrid1&quot; active ? on : off : deck left effect select &quot;beatgrid1&quot; ? on : off : off" />
+  <map value="LED_A_2-2" action="var &quot;$lpmode&quot; 1 ? deck left eq_mid 87% ? on : off : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 10 ? on : off : off : off" />
+  <map value="LED_R_2-3" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck left effect &quot;TalkFilter&quot; active ? on : off : deck left effect select &quot;TalkFilter&quot; ? on : off : var &quot;$lpmode&quot; 1 ? deck left eq_low 87% ? on : off" />
+  <map value="LED_R_2-4" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck left effect &quot;Gates_TexZK&quot; active ? on : off : deck left effect select &quot;Gates_TexZK&quot; ? on : off : off" />
+  <map value="LED_Y_2-4" action="var &quot;$lpmode&quot; 1 ? deck left volume 87% ? on : off : off" />
+  <map value="LED_Y_2-5" action="var &quot;$lpmode&quot; 1 ? deck right volume 87% ? on : off : off" />
+  <map value="LED_G_2-5" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 13 play ? on : off : off : off" />
+  <map value="LED_G_2-6" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 14 play ? on : off : off : off" />
+  <map value="LED_R_2-6" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck right effect &quot;beatgrid1&quot; active ? on : off : deck right effect select &quot;beatgrid1&quot; ? on : off : var &quot;$lpmode&quot; 1 ? deck right eq_low 87% ? on : off" />
+  <map value="LED_G_2-7" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 15 play ? on : off : off : off" />
+  <map value="LED_A_2-7" action="var &quot;$lpmode&quot; 1 ? deck right eq_mid 87% ? on : off : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 15 ? on : off : off : off" />
+  <map value="LED_G_2-8" action="var &quot;$lpmode&quot; 3 ? deck right effect &quot;backspin&quot; active ? on : off : var &quot;$lpmode&quot; 1 ? deck right eq_high 87% ? on : off : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 16 play ? on : off : off : off" />
+  <map value="LED_R_3-1" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck left effect &quot;dsp_Phaser&quot; active ? on : off : deck left effect select &quot;dsp_Phaser&quot; ? on : off : off" />
+  <map value="LED_G_3-1" action="var &quot;$lpmode&quot; 1 ? deck left eq_high 75% ? on : off : var &quot;$lpmode&quot; 2 ? sampler play ? on blink : on : off" />
+  <map value="LED_R_3-2" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck left effect &quot;beatgrid2&quot; active ? on : off : deck left effect select &quot;beatgrid2&quot; ? on : off : " />
+  <map value="LED_A_3-2" action="var &quot;$lpmode&quot; 1 ? deck left eq_mid 75% ? on : off" />
+  <map value="LED_R_3-3" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck left effect &quot;long_brake&quot; active ? on : off : deck left effect select &quot;long_brake&quot; ? on : off : var &quot;$lpmode&quot; 1 ? deck left eq_low 75% ? on : off" />
+  <map value="LED_R_3-4" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck left effect &quot;LFO&quot; active ? on : off : deck left effect select &quot;LFO&quot; ? on : off : off" />
+  <map value="LED_Y_3-4" action="var &quot;$lpmode&quot; 1 ? deck left volume 75% ? on : off : var &quot;$lpmode&quot; 2 ? sampler volume 34% ? on : off : off" />
+  <map value="LED_Y_3-5" action="var &quot;$lpmode&quot; 1 ? deck right volume 75% ? on : off : var &quot;$lpmode&quot; 2 ? sampler volume 50% ? on : off : off" />
+  <map value="LED_G_3-5" action="" />
+  <map value="LED_G_3-6" action="" />
+  <map value="LED_R_3-6" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck right effect &quot;beatgrid2&quot; active ? on : off : deck right effect select &quot;beatgrid2&quot; ? on : off : var &quot;$lpmode&quot; 1 ? deck right eq_low 75% ? on : off" />
+  <map value="LED_G_3-7" action="" />
+  <map value="LED_A_3-7" action="var &quot;$lpmode&quot; 1 ? deck right eq_mid 75% ? on : off" />
+  <map value="LED_G_3-8" action="var &quot;$lpmode&quot; 1 ? deck right eq_high 75% ? on : off : off" />
+  <map value="LED_G_4-1" action="var &quot;$lpmode&quot; 1 ? deck left eq_high 62% ? on : off : var &quot;$lpmode&quot; 2 ? on : off" />
+  <map value="LED_R_4-2" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck left effect &quot;beatgrid3&quot; active ? on : off : deck left effect select &quot;beatgrid3&quot; ? on : off : var &quot;$lpmode&quot; 2 ? sampler rec ? on blink : on : off" />
+  <map value="LED_A_4-2" action="var &quot;$lpmode&quot; 1 ? deck left eq_mid 62% ? on : off" />
+  <map value="LED_R_4-3" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck left effect &quot;backspin&quot; active ? on : off : deck left effect select &quot;backspin&quot; ? on : off : var &quot;$lpmode&quot; 1 ? deck left eq_low 62% ? on : off" />
+  <map value="LED_R_4-4" action="var &quot;$lpmode&quot; 3 ? deck left effect active ? on : off : var &quot;$lpmode&quot; 2 ? sampler loop ? on : off : off" />
+  <map value="LED_Y_4-4" action="var &quot;$lpmode&quot; 1 ? deck left volume 62% ? on : off : off" />
+  <map value="LED_Y_4-5" action="var &quot;$lpmode&quot; 1 ? deck right volume 62% ? on : off : var &quot;$lpmode&quot; 2 ? sampler loop ? on : off : off" />
+  <map value="LED_G_4-5" action="var &quot;$lpmode&quot; 3 ? deck right effect active ? off : on : off" />
+  <map value="LED_G_4-6" action="" />
+  <map value="LED_R_4-6" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck right effect &quot;beatgrid3&quot; active ? on : off : deck right effect select &quot;beatgrid3&quot; ? on : off : var &quot;$lpmode&quot; 1 ? deck right eq_low 62% ? on : off" />
+  <map value="LED_G_4-7" action="" />
+  <map value="LED_A_4-7" action="var &quot;$lpmode&quot; 1 ? deck right eq_mid 62% ? on : off" />
+  <map value="LED_G_4-8" action="var &quot;$lpmode&quot; 1 ? deck right eq_high 62% ? on : off : off" />
+  <map value="LED_A_5-1" action="" />
+  <map value="LED_G_5-1" action="var &quot;$lpmode&quot; 1 ? deck left eq_high 50% ? on : off" />
+  <map value="LED_A_5-2" action="var &quot;$lpmode&quot; 1 ? deck left eq_mid 50% ? on : off : off" />
+  <map value="LED_A_5-3" action="" />
+  <map value="LED_R_5-3" action="var &quot;$lpmode&quot; 1 ? deck left eq_low 50% ? on : off" />
+  <map value="LED_A_5-4" action="" />
+  <map value="LED_Y_5-4" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider1&quot; 43 ? on : off : var &quot;$lpmode&quot; 1 ? deck left volume 50% ? on : off" />
+  <map value="LED_Y_5-5" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider1&quot; 57 ? on : off : var &quot;$lpmode&quot; 1 ? deck right volume 50% ? on : off" />
+  <map value="LED_A_5-5" action="" />
+  <map value="LED_A_5-6" action="" />
+  <map value="LED_R_5-6" action="var &quot;$lpmode&quot; 1 ? deck right eq_low 50% ? on : off" />
+  <map value="LED_A_5-7" action="var &quot;$lpmode&quot; 1 ? deck right eq_mid 50% ? on : off : off" />
+  <map value="LED_A_5-8" action="" />
+  <map value="LED_G_5-8" action="var &quot;$lpmode&quot; 1 ? deck right eq_high 50% ? on : off : var &quot;$lpmode&quot; 2 ? on : off" />
+  <map value="LED_A_6-1" action="" />
+  <map value="LED_G_6-1" action="var &quot;$lpmode&quot; 1 ? deck left eq_high 34% ? on : off" />
+  <map value="LED_A_6-2" action="var &quot;$lpmode&quot; 1 ? deck left eq_mid 34% ? on : off : off" />
+  <map value="LED_A_6-3" action="" />
+  <map value="LED_R_6-3" action="var &quot;$lpmode&quot; 1 ? deck left eq_low 34% ? on : off" />
+  <map value="LED_A_6-4" action="" />
+  <map value="LED_Y_6-4" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider2&quot; 43 ? on : off : var &quot;$lpmode&quot; 1 ? deck left volume 34% ? on : off : off" />
+  <map value="LED_Y_6-5" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider2&quot; 57 ? on : off : var &quot;$lpmode&quot; 1 ? deck right volume 34% ? on : off : off" />
+  <map value="LED_A_6-5" action="" />
+  <map value="LED_A_6-6" action="" />
+  <map value="LED_R_6-6" action="var &quot;$lpmode&quot; 1 ? deck right eq_low 34% ? on : off" />
+  <map value="LED_A_6-7" action="var &quot;$lpmode&quot; 1 ? deck right eq_mid 34% ? on : off : off" />
+  <map value="LED_A_6-8" action="" />
+  <map value="LED_G_6-8" action="var &quot;$lpmode&quot; 1 ? deck right eq_high 34% ? on : off : var &quot;$lpmode&quot; 2 ? on : off" />
+  <map value="LED_A_7-1" action="" />
+  <map value="LED_G_7-1" action="var &quot;$lpmode&quot; 1 ? deck left eq_high 17% ? on : off" />
+  <map value="LED_A_7-2" action="var &quot;$lpmode&quot; 1 ? deck left eq_mid 17% ? on : off : var &quot;$lpmode&quot; 2 ? on : off" />
+  <map value="LED_A_7-3" action="var &quot;$lpmode&quot; 2 ? on : off" />
+  <map value="LED_R_7-3" action="var &quot;$lpmode&quot; 1 ? deck left eq_low 17% ? on : off" />
+  <map value="LED_A_7-4" action="" />
+  <map value="LED_Y_7-4" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider3&quot; 43 ? on : off : var &quot;$lpmode&quot; 1 ? deck left volume 17% ? on : off" />
+  <map value="LED_Y_7-5" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider3&quot; 57 ? on : off : var &quot;$lpmode&quot; 1 ? deck right volume 17% ? on : off : off" />
+  <map value="LED_A_7-5" action="" />
+  <map value="LED_A_7-6" action="" />
+  <map value="LED_R_7-6" action="var &quot;$lpmode&quot; 1 ? deck right eq_low 17% ? on : off" />
+  <map value="LED_A_7-7" action="var &quot;$lpmode&quot; 1 ? deck right eq_mid 17% ? on : off : var &quot;$lpmode&quot; 2 ? on : off" />
+  <map value="LED_A_7-8" action="var &quot;$lpmode&quot; 2 ? on : off" />
+  <map value="LED_G_7-8" action="var &quot;$lpmode&quot; 1 ? deck right eq_high 17% ? on : off : off" />
+  <map value="LED_A_8-1" action="" />
+  <map value="LED_G_8-1" action="var &quot;$lpmode&quot; 1 ? deck left eq_high 0% ? on : off" />
+  <map value="LED_A_8-2" action="var &quot;$lpmode&quot; 1 ? deck left eq_mid 0% ? on : off : off" />
+  <map value="LED_A_8-3" action="" />
+  <map value="LED_R_8-3" action="var &quot;$lpmode&quot; 1 ? deck left eq_low 0% ? on : off : var &quot;$lpmode&quot; 2 ? loop 4 ? on blink : on : off" />
+  <map value="LED_A_8-4" action="" />
+  <map value="LED_Y_8-4" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider4&quot; 43 ? on : off : var &quot;$lpmode&quot; 1 ? deck left volume 0% ? on : off" />
+  <map value="LED_Y_8-5" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider4&quot; 57 ? on : off : var &quot;$lpmode&quot; 1 ? deck right volume 0% ? on : off : off" />
+  <map value="LED_A_8-5" action="" />
+  <map value="LED_A_8-6" action="" />
+  <map value="LED_R_8-6" action="var &quot;$lpmode&quot; 1 ? deck right eq_low 0% ? on : off : var &quot;$lpmode&quot; 2 ? loop 32 ? on blink : on : off" />
+  <map value="LED_A_8-7" action="var &quot;$lpmode&quot; 1 ? deck right eq_mid 0% ? on : off : off" />
+  <map value="LED_A_8-8" action="" />
+  <map value="LED_G_8-8" action="var &quot;$lpmode&quot; 1 ? deck right eq_high 0% ? on : off : off" />
+  <map value="B_1-1" action="var &quot;$lpmode&quot; 3 ? deck left effect select_multi &quot;flanger&quot; &amp; var &quot;$estart&quot; 1 ? deck left effect active : nothing : var &quot;$lpmode&quot; 1 ? deck right masterdeck &amp; deck left sync &amp; deck left match_key : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 1 : var &quot;$samplemode&quot; 1 ? sampler select 1 &amp; sampler play_stop : nothing" />
+  <map value="B_1-2" action="var &quot;$lpmode&quot; 3 ? deck left effect select_multi &quot;FlippinDouble&quot; &amp; var &quot;$estart&quot; 1 ? deck left effect active : nothing : var &quot;$lpmode&quot; 1 ? deck left cue_stop : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 2 : var &quot;$samplemode&quot; 1 ? sampler select 2 &amp; sampler play_stop : nothing" />
+  <map value="B_1-3" action="var &quot;$lpmode&quot; 3 ? deck left effect select_multi &quot;dsp_Distorter&quot; &amp; var &quot;$estart&quot; 1 ? deck left effect active : nothing : var &quot;$lpmode&quot; 1 ? deck left play_pause : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 3 : var &quot;$samplemode&quot; 1 ? sampler select 3 &amp; sampler play_stop : nothing" />
+  <map value="B_1-4" action="var &quot;$lpmode&quot; 3 ? deck left effect select_multi &quot;Cut&quot; &amp; var &quot;$estart&quot; 1 ? deck left effect active : nothing : var &quot;$lpmode&quot; 1 ? deck left volume 100% : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 4 : var &quot;$samplemode&quot; 1 ? sampler select 4 &amp; sampler play_stop : nothing" />
+  <map value="B_1-5" action="var &quot;$lpmode&quot; 3 ? deck right effect select_multi &quot;flanger&quot; &amp; var &quot;$estart&quot; 1 ? deck right effect active : nothing : var &quot;$lpmode&quot; 1 ? deck right volume 100% : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 5 : var &quot;$samplemode&quot; 1 ? sampler select 5 &amp; sampler play_stop : nothing" />
+  <map value="B_1-6" action="var &quot;$lpmode&quot; 3 ? deck right effect select_multi &quot;FlippinDouble&quot; &amp; var &quot;$estart&quot; 1 ? deck right effect active : nothing : var &quot;$lpmode&quot; 1 ? deck right play_pause : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 6 : var &quot;$samplemode&quot; 1 ? sampler select 6 &amp; sampler play_stop : nothing" />
+  <map value="B_1-7" action="var &quot;$lpmode&quot; 3 ? deck right effect select_multi &quot;dsp_Distorter&quot; &amp; var &quot;$estart&quot; 1 ? deck right effect active : nothing : var &quot;$lpmode&quot; 1 ? deck right cue_stop : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 7 : var &quot;$samplemode&quot; 1 ? sampler select 7 &amp; sampler play_stop : nothing" />
+  <map value="B_1-8" action="var &quot;$lpmode&quot; 3 ? deck right effect select_multi &quot;Cut&quot; &amp; var &quot;$estart&quot; 1 ? deck right effect active : nothing : var &quot;$lpmode&quot; 1 ? deck left masterdeck &amp; deck right sync &amp; deck right match_key : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 8 : var &quot;$samplemode&quot; 1 ? sampler select 8 &amp; sampler play_stop : nothing" />
+  <map value="B_2-1" action="var &quot;$lpmode&quot; 3 ? deck left effect select_multi &quot;FlanJet&quot; &amp; var &quot;$estart&quot; 1 ? deck left effect active : nothing : var &quot;$lpmode&quot; 1 ? deck left eq_high 87% : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 9 : var &quot;$samplemode&quot; 1 ? sampler select 9 &amp; sampler play_stop : nothing" />
+  <map value="B_2-2" action="var &quot;$lpmode&quot; 3 ? deck left effect select_multi &quot;beatgrid1&quot; &amp; var &quot;$estart&quot; 1 ? deck left effect active : nothing : var &quot;$lpmode&quot; 1 ? deck left eq_mid 87% : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 10 : var &quot;$samplemode&quot; 1 ? sampler select 10 &amp; sampler play_stop : nothing" />
+  <map value="B_2-3" action="var &quot;$lpmode&quot; 3 ? deck left effect select_multi &quot;TalkFilter&quot; &amp; var &quot;$estart&quot; 1 ? deck left effect active : nothing : var &quot;$lpmode&quot; 1 ? deck left eq_low 87% : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 11 : var &quot;$samplemode&quot; 1 ? sampler select 11 &amp; sampler play_stop : nothing" />
+  <map value="B_2-4" action="var &quot;$lpmode&quot; 3 ? deck left effect select_multi &quot;Gates_TexZK&quot; &amp; var &quot;$estart&quot; 1 ? deck left effect active : nothing : var &quot;$lpmode&quot; 1 ? deck left volume 87% : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 12 : var &quot;$samplemode&quot; 1 ? sampler select 12 &amp; sampler play_stop : nothing" />
+  <map value="B_2-5" action="var &quot;$lpmode&quot; 3 ? deck right effect select_multi &quot;FlanJet&quot; &amp; var &quot;$estart&quot; 1 ? deck right effect active : nothing : var &quot;$lpmode&quot; 1 ? deck right volume 87% : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 13 : var &quot;$samplemode&quot; 1 ? sampler select 13 &amp; sampler play_stop : nothing" />
+  <map value="B_2-6" action="var &quot;$lpmode&quot; 3 ? deck right effect select_multi &quot;beatgrid1&quot; &amp; var &quot;$estart&quot; 1 ? deck right effect active : nothing : var &quot;$lpmode&quot; 1 ? deck right eq_low 87% : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 14 : var &quot;$samplemode&quot; 1 ? sampler select 14 &amp; sampler play_stop : nothing" />
+  <map value="B_2-7" action="var &quot;$lpmode&quot; 3 ? deck right effect select_multi &quot;TalkFilter&quot; &amp; var &quot;$estart&quot; 1 ? deck right effect active : nothing : var &quot;$lpmode&quot; 1 ? deck right eq_mid 87% : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 15 : var &quot;$samplemode&quot; 1 ? sampler select 15 &amp; sampler play_stop : nothing" />
+  <map value="B_2-8" action="var &quot;$lpmode&quot; 3 ? deck right effect select_multi &quot;Gates_TexZK&quot; &amp; var &quot;$estart&quot; 1 ? deck right effect active : nothing : var &quot;$lpmode&quot; 1 ? deck right eq_high 87% : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 16 : var &quot;$samplemode&quot; 1 ? sampler select 16 &amp; sampler play_stop : nothing" />
+  <map value="B_3-1" action="var &quot;$lpmode&quot; 3 ? deck left effect select_multi &quot;dsp_Phaser&quot; &amp; var &quot;$estart&quot; 1 ? deck left effect active : nothing : var &quot;$lpmode&quot; 1 ? deck left eq_high 75% : var &quot;$lpmode&quot; 2 ? sampler play_stop : nothing" />
+  <map value="B_3-2" action="var &quot;$lpmode&quot; 3 ? deck left effect select_multi &quot;beatgrid2&quot; &amp; var &quot;$estart&quot; 1 ? deck left effect active : nothing : var &quot;$lpmode&quot; 1 ? deck left eq_mid 75% : var &quot;$lpmode&quot; 2 ? sampler volume 0% : nothing" />
+  <map value="B_3-3" action="var &quot;$lpmode&quot; 3 ? deck left effect select_multi &quot;Long_brake&quot; &amp; var &quot;$estart&quot; 1 ? deck left effect active : nothing : var &quot;$lpmode&quot; 1 ? deck left eq_low 75% : var &quot;$lpmode&quot; 2 ? sampler volume 17% : nothing" />
+  <map value="B_3-4" action="var &quot;$lpmode&quot; 3 ? deck left effect select_multi &quot;LFO&quot; &amp; var &quot;$estart&quot; 1 ? deck left effect active : nothing : var &quot;$lpmode&quot; 1 ? deck left volume 75% : var &quot;$lpmode&quot; 2 ? sampler volume 34% : nothing" />
+  <map value="B_3-5" action="var &quot;$lpmode&quot; 3 ? deck right effect select_multi &quot;dsp_Phaser&quot; &amp; var &quot;$estart&quot; 1 ? deck right effect active : nothing : var &quot;$lpmode&quot; 1 ? deck right volume 75% : var &quot;$lpmode&quot; 2 ? sampler volume 50% : nothing" />
+  <map value="B_3-6" action="var &quot;$lpmode&quot; 3 ? deck right effect select_multi &quot;beatgrid2&quot; &amp; var &quot;$estart&quot; 1 ? deck right effect active : nothing : var &quot;$lpmode&quot; 1 ? deck right eq_low 75% : var &quot;$lpmode&quot; 2 ? sampler volume 67% : nothing" />
+  <map value="B_3-7" action="var &quot;$lpmode&quot; 3 ? deck right effect select_multi &quot;Long_brake&quot; &amp; var &quot;$estart&quot; 1 ? deck right effect active : nothing : var &quot;$lpmode&quot; 1 ? deck right eq_mid 75% : var &quot;$lpmode&quot; 2 ? sampler volume 84% : nothing" />
+  <map value="B_3-8" action="var &quot;$lpmode&quot; 3 ? deck right effect select_multi &quot;LFO&quot; &amp; var &quot;$estart&quot; 1 ? deck right effect active : nothing : var &quot;$lpmode&quot; 1 ? deck right eq_high 75% : var &quot;$lpmode&quot; 2 ? sampler volume 100% : nothing" />
+  <map value="B_4-1" action="var &quot;$lpmode&quot; 3 ? deck left select : var &quot;$lpmode&quot; 1 ? deck left eq_high 62% : var &quot;$lpmode&quot; 2 ? sampler play_stutter : nothing" />
+  <map value="B_4-2" action="var &quot;$lpmode&quot; 3 ? deck left effect select_multi &quot;beatgrid3&quot; &amp; var &quot;$estart&quot; 1 ? deck left effect active : nothing : var &quot;$lpmode&quot; 1 ? deck left eq_mid 62% : var &quot;$lpmode&quot; 2 ? sampler default rec : nothing" />
+  <map value="B_4-3" action="var &quot;$lpmode&quot; 3 ? deck left effect select_multi &quot;backspin&quot; &amp; var &quot;$estart&quot; 1 ? deck left effect active : nothing : var &quot;$lpmode&quot; 1 ? deck left eq_low 62% : var &quot;$lpmode&quot; 2 ? sampler loop : nothing" />
+  <map value="B_4-4" action="var &quot;$lpmode&quot; 3 ? deck left effect active : var &quot;$lpmode&quot; 1 ? deck left volume 62% : var &quot;$lpmode&quot; 2 ? sampler loop 50% : nothing" />
+  <map value="B_4-5" action="var &quot;$lpmode&quot; 3 ? deck right effect active : var &quot;$lpmode&quot; 1 ? deck right volume 62% : var &quot;$lpmode&quot; 2 ? sampler loop 200% : nothing" />
+  <map value="B_4-6" action="var &quot;$lpmode&quot; 3 ? deck right effect select_multi &quot;beatgrid3&quot; &amp; var &quot;$estart&quot; 1 ? deck right effect active : nothing : var &quot;$lpmode&quot; 1 ? deck right eq_low 62% : var &quot;$lpmode&quot; 2 ? sampler default beatlock : nothing" />
+  <map value="B_4-7" action="var &quot;$lpmode&quot; 3 ? deck right effect select_multi &quot;backspin&quot; &amp; var &quot;$estart&quot; 1 ? deck right effect active : nothing : var &quot;$lpmode&quot; 1 ? deck right eq_mid 62% : nothing" />
+  <map value="B_4-8" action="var &quot;$lpmode&quot; 3 ? deck right select : var &quot;$lpmode&quot; 1 ? deck right eq_high 62% : nothing" />
+  <map value="B_5-1" action="var &quot;$lpmode&quot; 3 ? effect slider 1 0% &amp; set &quot;$eslider1&quot; 0 : var &quot;$lpmode&quot; 1 ? deck left eq_high 50% : nothing" />
+  <map value="B_5-2" action="var &quot;$lpmode&quot; 3 ?  effect slider 1 15% &amp; set &quot;$eslider1&quot; 15 : var &quot;$lpmode&quot; 1 ? deck left eq_mid 50% : nothing" />
+  <map value="B_5-3" action="var &quot;$lpmode&quot; 3 ? effect slider 1 30% &amp; set &quot;$eslider1&quot; 30 : var &quot;$lpmode&quot; 1 ? deck left eq_low 50% : nothing" />
+  <map value="B_5-4" action="var &quot;$lpmode&quot; 3 ? effect slider 1 43% &amp; set &quot;$eslider1&quot; 43 : var &quot;$lpmode&quot; 1 ? deck left volume 50% : nothing" />
+  <map value="B_5-5" action="var &quot;$lpmode&quot; 3 ? effect slider 1 57% &amp; set &quot;$eslider1&quot; 57 : var &quot;$lpmode&quot; 1 ? deck right volume 50% :  nothing" />
+  <map value="B_5-6" action="var &quot;$lpmode&quot; 3 ? effect slider 1 70% &amp; set &quot;$eslider1&quot; 70 : var &quot;$lpmode&quot; 1 ? deck right eq_low 50% : nothing" />
+  <map value="B_5-7" action="var &quot;$lpmode&quot; 3 ? effect slider 1 85% &amp; set &quot;$eslider1&quot; 85 : var &quot;$lpmode&quot; 1 ? deck right eq_mid 50% : nothing" />
+  <map value="B_5-8" action="var &quot;$lpmode&quot; 3 ? effect slider 1 100% &amp; set &quot;$eslider1&quot; 100 : var &quot;$lpmode&quot; 1 ? deck right eq_high 50% : var &quot;$lpmode&quot; 2 ? deck left select ? deck left pitch -0.05 &amp; deck right match_bpm : deck right select ? deck right pitch -0.05 &amp; deck left match_bpm : nothing : nothing" />
+  <map value="B_6-1" action="var &quot;$lpmode&quot; 3 ? effect slider 2 0% &amp; set &quot;$eslider2&quot; 0 : var &quot;$lpmode&quot; 1 ? deck left eq_high 34% : nothing" />
+  <map value="B_6-2" action="var &quot;$lpmode&quot; 3 ? effect slider 2 15% &amp; set &quot;$eslider2&quot; 15 : var &quot;$lpmode&quot; 1 ? deck left eq_mid 34% : nothing" />
+  <map value="B_6-3" action="var &quot;$lpmode&quot; 3 ? effect slider 2 30% &amp; set &quot;$eslider2&quot; 30 : var &quot;$lpmode&quot; 1 ? deck left eq_low 34% : nothing" />
+  <map value="B_6-4" action="var &quot;$lpmode&quot; 3 ? effect slider 2 43% &amp; set &quot;$eslider2&quot; 43 : var &quot;$lpmode&quot; 1 ? deck left volume 34% : nothing" />
+  <map value="B_6-5" action="var &quot;$lpmode&quot; 3 ? effect slider 2 57% &amp; set &quot;$eslider2&quot; 57 : var &quot;$lpmode&quot; 1 ? deck right volume 34% : nothing" />
+  <map value="B_6-6" action="var &quot;$lpmode&quot; 3 ? effect slider 2 70% &amp; set &quot;$eslider2&quot; 70 : var &quot;$lpmode&quot; 1 ? deck right eq_low 34% : nothing" />
+  <map value="B_6-7" action="var &quot;$lpmode&quot; 3 ? effect slider 2 85% &amp; set &quot;$eslider2&quot; 85 : var &quot;$lpmode&quot; 1 ? deck right eq_mid 34% : nothing" />
+  <map value="B_6-8" action="var &quot;$lpmode&quot; 3 ? effect slider 2 100% &amp; set &quot;$eslider2&quot; 100 : var &quot;$lpmode&quot; 1 ? deck right eq_high 34% : var &quot;$lpmode&quot; 2 ? deck left select ? deck left pitch +0.05 &amp; deck right match_bpm : deck right select ? deck right pitch +0.05 &amp; deck left match_bpm : nothing : nothing" />
+  <map value="B_7-1" action="var &quot;$lpmode&quot; 3 ? effect slider 3 0% &amp; set &quot;$eslider3&quot; 0 : var &quot;$lpmode&quot; 1 ? deck left eq_high 17% : var &quot;$lpmode&quot; 2 ? loop_move -2 : nothing" />
+  <map value="B_7-2" action="var &quot;$lpmode&quot; 3 ? effect slider 3 15% &amp; set &quot;$eslider3&quot; 15 : var &quot;$lpmode&quot; 1 ? deck left eq_mid 17% : var &quot;$lpmode&quot; 2 ? loop_move -1 : nothing" />
+  <map value="B_7-3" action="var &quot;$lpmode&quot; 3 ? effect slider 3 30% &amp; set &quot;$eslider3&quot; 30 : var &quot;$lpmode&quot; 1 ? deck left eq_low 17% : var &quot;$lpmode&quot; 2 ? loop_move +1 : nothing" />
+  <map value="B_7-4" action="var &quot;$lpmode&quot; 3 ? effect slider 3 43% &amp; set &quot;$eslider3&quot; 43 : var &quot;$lpmode&quot; 1 ? deck left volume 17% : var &quot;$lpmode&quot; 2 ? loop_move +2 : " />
+  <map value="B_7-5" action="var &quot;$lpmode&quot; 3 ? effect slider 3 57% &amp; set &quot;$eslider3&quot; 57 : var &quot;$lpmode&quot; 1 ? deck right volume 17% : nothing" />
+  <map value="B_7-6" action="var &quot;$lpmode&quot; 3 ? effect slider 3 70% &amp; set &quot;$eslider3&quot; 70 : var &quot;$lpmode&quot; 1 ? deck right eq_low 17% : var &quot;$lpmode&quot; 2 ? match_key : nothing" />
+  <map value="B_7-7" action="var &quot;$lpmode&quot; 3 ? effect slider 3 85% &amp; set &quot;$eslider3&quot; 85 : var &quot;$lpmode&quot; 1 ? deck right eq_mid 17% : var &quot;$lpmode&quot; 2 ? key_move -0.5 : nothing" />
+  <map value="B_7-8" action="var &quot;$lpmode&quot; 3 ? effect slider 3 100% &amp; set &quot;$eslider3&quot; 100 : var &quot;$lpmode&quot; 1 ? deck right eq_high 17% : var &quot;$lpmode&quot; 2 ? key_move +0.5 : nothing" />
+  <map value="B_8-1" action="var &quot;$lpmode&quot; 3 ? effect slider 4 0% &amp; set &quot;$eslider4&quot; 0 : var &quot;$lpmode&quot; 1 ? deck left eq_high 0% : var &quot;$lpmode&quot; 2 ? loop 1 : nothing" />
+  <map value="B_8-2" action="var &quot;$lpmode&quot; 3 ? effect slider 4 15% &amp; set &quot;$eslider4&quot; 15 : var &quot;$lpmode&quot; 1 ? deck left eq_mid 0% : var &quot;$lpmode&quot; 2 ? loop 2 : nothing" />
+  <map value="B_8-3" action="var &quot;$lpmode&quot; 3 ? effect slider 4 30% &amp; set &quot;$eslider4&quot; 30 : var &quot;$lpmode&quot; 1 ? deck left eq_low 0% : var &quot;$lpmode&quot; 2 ? loop 4 : nothing" />
+  <map value="B_8-4" action="var &quot;$lpmode&quot; 3 ? effect slider 4 43% &amp; set &quot;$eslider4&quot; 43 : var &quot;$lpmode&quot; 1 ? deck left volume 0% : var &quot;$lpmode&quot; 2 ? loop 8 : nothing" />
+  <map value="B_8-5" action="var &quot;$lpmode&quot; 3 ? effect slider 4 57% &amp; set &quot;$eslider4&quot; 57 : var &quot;$lpmode&quot; 1 ? deck right volume 0% : var &quot;$lpmode&quot; 2 ? loop 16 : nothing" />
+  <map value="B_8-6" action="var &quot;$lpmode&quot; 3 ? effect slider 4 70% &amp; set &quot;$eslider4&quot; 70 : var &quot;$lpmode&quot; 1 ? deck right eq_low 0% : var &quot;$lpmode&quot; 2 ? loop 32 : nothing" />
+  <map value="B_8-7" action="var &quot;$lpmode&quot; 3 ? effect slider 4 85% &amp; set &quot;$eslider4&quot; 85 : var &quot;$lpmode&quot; 1 ? deck right eq_mid 0% : var &quot;$lpmode&quot; 2 ? deck left select : nothing" />
+  <map value="B_8-8" action="var &quot;$lpmode&quot; 3 ? effect slider 4 100% &amp; set &quot;$eslider4&quot; 100 : var &quot;$lpmode&quot; 1 ? deck right eq_high 0% : var &quot;$lpmode&quot; 2 ? deck right select : nothing" />
+  <map value="LED_R_T-1" action="" />
+  <map value="LED_R_T-2" action="" />
+  <map value="B_T-1" action="set &quot;$lpmode&quot; 2" />
+  <map value="B_T-2" action="set &quot;$lpmode&quot; 3" />
+  <map value="B_T-3" action="set &quot;$lpmode&quot; 1" />
+  <map value="LED_R_T-3" action="" />
+  <map value="LED_R_8-1" action="var &quot;$lpmode&quot; 2 ? loop 1 ? on blink : on : off" />
+  <map value="LED_R_8-2" action="var &quot;$lpmode&quot; 2 ? loop 2 ? on blink : on : off" />
+  <map value="LED_R_8-4" action="var &quot;$lpmode&quot; 2 ? loop 8 ? on blink : on : off" />
+  <map value="LED_R_8-5" action="var &quot;$lpmode&quot; 2 ? loop 16 ? on blink : on : off" />
+  <map value="LED_Y_7-1" action="var &quot;$lpmode&quot; 3 ? on : off" />
+  <map value="LED_Y_7-8" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider3&quot; 100 ? on : off : off" />
+  <map value="LED_G_6-4" action="" />
+  <map value="LED_G_6-5" action="" />
+  <map value="LED_G_5-4" action="" />
+  <map value="LED_Y_6-3" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider2&quot; 30 ? on : off : off" />
+  <map value="LED_Y_6-6" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider2&quot; 70 ? on : off : off" />
+  <map value="LED_Y_5-3" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider1&quot; 30 ? on : off : off" />
+  <map value="LED_Y_5-6" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider1&quot; 70 ? on : off : off" />
+  <map value="LED_R_6-1" action="" />
+  <map value="LED_R_6-8" action="" />
+  <map value="LED_R_5-1" action="" />
+  <map value="LED_R_5-8" action="" />
+  <map value="LED_G_3-2" action="" />
+  <map value="LED_G_3-3" action="" />
+  <map value="LED_G_3-4" action="" />
+  <map value="LED_G_4-2" action="" />
+  <map value="LED_G_4-3" action="" />
+  <map value="LED_G_4-4" action="var &quot;$lpmode&quot; 3 ? deck left effect active ? off : on : off" />
+  <map value="LED_A_1-1" action="var &quot;$lpmode&quot; 1 ? deck right masterdeck ? on : off : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 1 ? on : off : off : off" />
+  <map value="LED_A_1-3" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 3 ? on : off : off : off" />
+  <map value="LED_A_1-4" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 4 ? on : off : off : off" />
+  <map value="LED_A_1-5" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 5 ? on : off : off : off" />
+  <map value="LED_A_1-6" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 6 ? on : off : off : off" />
+  <map value="LED_A_1-8" action="var &quot;$lpmode&quot; 1 ? deck left masterdeck ? on : off : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 8 ? on : off : off : off" />
+  <map value="LED_A_2-1" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 9 ? on : off : off : off" />
+  <map value="LED_A_2-3" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 11 ? on : off : off : off" />
+  <map value="LED_A_2-4" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 12 ? on : off : off : off" />
+  <map value="LED_A_2-5" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 13 ? on : off : off : off" />
+  <map value="LED_A_2-6" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 14 ? on : off : off : off" />
+  <map value="LED_A_2-8" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? sampler select 16 ? on : off : off : off" />
+  <map value="LED_Y_1-1" action="" />
+  <map value="LED_Y_1-2" action="" />
+  <map value="LED_Y_1-3" action="" />
+  <map value="LED_Y_1-6" action="" />
+  <map value="LED_Y_1-7" action="" />
+  <map value="LED_Y_1-8" action="" />
+  <map value="LED_Y_2-1" action="" />
+  <map value="LED_Y_2-2" action="" />
+  <map value="LED_Y_2-3" action="" />
+  <map value="LED_Y_2-6" action="" />
+  <map value="LED_Y_2-7" action="" />
+  <map value="LED_Y_2-8" action="" />
+  <map value="LED_R_4-8" action="" />
+  <map value="LED_G_1-6" action="var &quot;$lpmode&quot; 1 ? deck right loaded ? deck right play ? on : deck right cue ? off : on blink : off : var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 6 play ? on : off : off : off" />
+  <map value="LED_G_5-5" action="" />
+  <map value="LED_Y_T-1" action="var &quot;$lpmode&quot; 2 ? on : off" />
+  <map value="LED_Y_T-2" action="var &quot;$lpmode&quot; 3 ? on : off" />
+  <map value="LED_Y_T-3" action="var &quot;$lpmode&quot; 1 ? on : off" />
+  <map value="LED_Y_5-1" action="var &quot;$lpmode&quot; 3 ? on : off" />
+  <map value="LED_Y_6-1" action="var &quot;$lpmode&quot; 3 ? on : off" />
+  <map value="LED_Y_8-1" action="var &quot;$lpmode&quot; 3 ? on : off" />
+  <map value="LED_Y_5-2" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider1&quot; 15 ? on : off : off" />
+  <map value="LED_Y_6-2" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider2&quot; 15 ? on : off : off" />
+  <map value="LED_Y_7-2" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider3&quot; 15 ? on : off : off" />
+  <map value="LED_Y_8-2" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider4&quot; 15 ? on : off : off" />
+  <map value="LED_Y_7-3" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider3&quot; 30 ? on : off : off" />
+  <map value="LED_Y_8-3" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider4&quot; 30 ? on : off : off" />
+  <map value="LED_Y_7-6" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider3&quot; 70 ? on : off : off" />
+  <map value="LED_Y_8-6" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider4&quot; 70 ? on : off : off" />
+  <map value="LED_Y_5-7" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider1&quot; 85 ? on : off : off" />
+  <map value="LED_Y_6-7" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider2&quot; 85 ? on : off : off" />
+  <map value="LED_Y_7-7" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider3&quot; 85 ? on : off : off" />
+  <map value="LED_Y_8-7" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider4&quot; 85 ? on : off : var &quot;$lpmode&quot; 2 ? deck left select ? on : off : off" />
+  <map value="LED_Y_5-8" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider1&quot; 100 ? on : off : off" />
+  <map value="LED_Y_6-8" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider2&quot; 100 ? on : off : off" />
+  <map value="LED_Y_8-8" action="var &quot;$lpmode&quot; 3 ? var &quot;$eslider4&quot; 100 ? on : off : var &quot;$lpmode&quot; 2 ? deck right select ? on : off : off" />
+  <map value="B_T-4" action="set &quot;$lpmode&quot; 4" />
+  <map value="LED_R_T-4" action="var &quot;$lpmode&quot; 4 ? on : off" />
+  <map value="LED_G_7-6" action="var &quot;$lpmode&quot; 2 ? on : off" />
+  <map value="LED_R_1-7" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck right effect &quot;dsp_Distorter&quot; active ? on : off : deck right effect select &quot;dsp_Distorter&quot; ? on : off : var &quot;$lpmode&quot; 1 ? deck right cue_stop ? on : off : off" />
+  <map value="LED_R_7-1" action="var &quot;$lpmode&quot; 2 ? on : off" />
+  <map value="LED_R_7-4" action="var &quot;$lpmode&quot; 2 ? on : off" />
+  <map value="LED_A_4-3" action="" />
+  <map value="LED_Y_3-2" action="var &quot;$lpmode&quot; 2 ? on : off" />
+  <map value="LED_Y_3-3" action="var &quot;$lpmode&quot; 2 ? sampler volume 17% ? on : off : off" />
+  <map value="LED_Y_3-6" action="var &quot;$lpmode&quot; 2 ? sampler volume 67% ? on : off : off" />
+  <map value="LED_Y_3-7" action="var &quot;$lpmode&quot; 2 ? sampler volume 84% ? on : off : off" />
+  <map value="LED_Y_3-8" action="var &quot;$lpmode&quot; 2 ? sampler volume 100% ? on : off : off" />
+  <map value="B_R-3" action="var &quot;$lpmode&quot; 2 ? sampler load : nothing" />
+  <map value="LED_R_R-3" action="var &quot;$lpmode&quot; 2 ? on : off" />
+  <map value="LED_G_R-2" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? on : off : off" />
+  <map value="B_R-2" action="var &quot;$lpmode&quot; 2 ? set &quot;$samplemode&quot; 1 : nothing" />
+  <map value="LED_A_R-1" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 0 ? on : off : off" />
+  <map value="B_R-1" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 0 ? set &quot;$estart&quot; 1 : set &quot;$estart&quot; 0 : var &quot;$lpmode&quot; 2 ? set &quot;$samplemode&quot; 0 : nothing" />
+  <map value="ONINIT" action="set &quot;$lpmode&quot; 2 &amp; set &quot;$samplemode&quot; 0" />
+  <map value="LED_G_1-2" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 2 play ? on : off : off : off" />
+  <map value="LED_G_1-4" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 4 play ? on : off : off : off" />
+  <map value="LED_G_2-2" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 10 play ? on : off : off : off" />
+  <map value="LED_G_2-3" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 11 play ? on : off : off : off" />
+  <map value="LED_G_2-4" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 12 play ? on : off : off : off" />
+  <map value="LED_Y_R-3" action="" />
+  <map value="LED_A_R-3" action="" />
+  <map value="LED_G_R-3" action="" />
+  <map value="LED_R_R-4" action="" />
+  <map value="B_R-4" action="var &quot;$lpmode&quot; 2 ? sampler save : nothing" />
+  <map value="LED_A_4-6" action="var &quot;$lpmode&quot; 2 ? sampler default beatlock ? on : off : off" />
+  <map value="LED_Y_4-3" action="var &quot;$lpmode&quot; 2 ? sampler loop ? on : off : off" />
+  <map value="LED_R_4-5" action="var &quot;$lpmode&quot; 3 ? deck right effect active ? on : off : var &quot;$lpmode&quot; 2 ? sampler loop ? on : off : off" />
+  <map value="LED_Y_R-4" action="var &quot;$lpmode&quot; 2 ? on : off" />
+  <map value="LED_A_4-1" action="var &quot;$lpmode&quot; 3 ? deck left select ? on : off : off" />
+  <map value="LED_A_4-8" action="var &quot;$lpmode&quot; 3 ? deck right select ? on : off : off" />
+  <map value="LED_Y_R-1" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? on : off : off" />
+  <map value="LED_R_R-1" action="" />
+  <map value="LED_A_R-5" action="var &quot;$lpmode&quot; 3 ? on : off" />
+  <map value="LED_A_R-6" action="var &quot;$lpmode&quot; 3 ? on : off" />
+  <map value="LED_A_R-7" action="var &quot;$lpmode&quot; 3 ? on : off" />
+  <map value="LED_A_R-8" action="var &quot;$lpmode&quot; 3 ? on : off" />
+  <map value="B_R-5" action="var &quot;$lpmode&quot; 3 ? effect button 1 : nothing" />
+  <map value="B_R-6" action="var &quot;$lpmode&quot; 3 ? effect button 2 : nothing" />
+  <map value="B_R-7" action="var &quot;$lpmode&quot; 3 ? effect button 3 : nothing" />
+  <map value="B_R-8" action="var &quot;$lpmode&quot; 3 ? effect button 4 : nothing" />
+  <map value="LED_R_1-6" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck right effect &quot;FlippinDouble&quot; active ? on : off : deck right effect select &quot;FlippinDouble&quot; ? on : off : off" />
+  <map value="LED_R_1-5" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck right effect &quot;flanger&quot; active ? on : off : deck right effect select &quot;flanger&quot; ? on : off : off" />
+  <map value="LED_R_1-8" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck right effect &quot;Cut&quot; active ? on : off : deck right effect select &quot;Cut&quot; ? on : off : off" />
+  <map value="LED_R_2-5" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck right effect &quot;FlanJet&quot; active ? on : off : deck right effect select &quot;FlanJet&quot; ? on : off : off" />
+  <map value="LED_R_2-7" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck right effect &quot;TalkFilter&quot; active ? on : off : deck right effect select &quot;TalkFilter&quot; ? on : off : off" />
+  <map value="LED_R_2-8" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck right effect &quot;Gates_TexZK&quot; active ? on : off : deck right effect select &quot;Gates_TexZK&quot; ? on : off : " />
+  <map value="LED_R_3-5" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck right effect &quot;dsp_Phaser&quot; active ? on : off : deck right effect select &quot;dsp_Phaser&quot; ? on : off : off" />
+  <map value="LED_R_3-7" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck right effect &quot;Long_brake&quot; active ? on : off : deck right effect select &quot;Long_brake&quot; ? on : off : " />
+  <map value="LED_R_3-8" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck right effect &quot;LFO&quot; active ? on : off : deck right effect select &quot;LFO&quot; ? on : off : off" />
+  <map value="LED_R_4-7" action="var &quot;$lpmode&quot; 3 ? var &quot;$estart&quot; 1 ? deck right effect &quot;backspin&quot; active ? on : off : deck right effect select &quot;backspin&quot; ? on : off : off" />
+  <map value="LED_G_1-1" action="var &quot;$lpmode&quot; 2 ? var &quot;$samplemode&quot; 1 ? sampler 1 play ? on : off : off : off" />
+</mapper>

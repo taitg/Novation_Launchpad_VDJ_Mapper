@@ -238,6 +238,7 @@ begin
   end;
 end;
 
+// select a Launchpad button
 procedure selectButton(button: string);
 var
   i: integer;
@@ -285,11 +286,13 @@ begin
   changes := false;
 end;
 
+// enable or disable buttons
 procedure enableButtons(action: boolean);
 begin
   Form1.GroupBox1.Enabled := action;
 end;
 
+// check if changes need to be saved
 procedure checkSave;
 begin
   if changes then begin
@@ -310,406 +313,20 @@ begin
   end;
 end;
 
+// about button
 procedure TForm1.About1Click(Sender: TObject);
 begin
   Form2.Show;
 end;
 
-procedure TForm1.B11Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('1-1');
-end;
-
-procedure TForm1.B12Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('1-2');
-end;
-
-procedure TForm1.B13Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('1-3');
-end;
-
-procedure TForm1.B14Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('1-4');
-end;
-
-procedure TForm1.B15Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('1-5');
-end;
-
-procedure TForm1.B16Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('1-6');
-end;
-
-procedure TForm1.B17Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('1-7');
-end;
-
-procedure TForm1.B18Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('1-8');
-end;
-
-procedure TForm1.B21Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('2-1');
-end;
-
-procedure TForm1.B22Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('2-2');
-end;
-
-procedure TForm1.B23Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('2-3');
-end;
-
-procedure TForm1.B24Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('2-4');
-end;
-
-procedure TForm1.B25Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('2-5');
-end;
-
-procedure TForm1.B26Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('2-6');
-end;
-
-procedure TForm1.B27Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('2-7');
-end;
-
-procedure TForm1.B28Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('2-8');
-end;
-
-procedure TForm1.B31Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('3-1');
-end;
-
-procedure TForm1.B32Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('3-2');
-end;
-
-procedure TForm1.B33Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('3-3');
-end;
-
-procedure TForm1.B34Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('3-4');
-end;
-
-procedure TForm1.B35Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('3-5');
-end;
-
-procedure TForm1.B36Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('3-6');
-end;
-
-procedure TForm1.B37Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('3-7');
-end;
-
-procedure TForm1.B38Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('3-8');
-end;
-
-procedure TForm1.B41Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('4-1');
-end;
-
-procedure TForm1.B42Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('4-2');
-end;
-
-procedure TForm1.B43Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('4-3');
-end;
-
-procedure TForm1.B44Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('4-4');
-end;
-
-procedure TForm1.B45Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('4-5');
-end;
-
-procedure TForm1.B46Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('4-6');
-end;
-
-procedure TForm1.B47Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('4-7');
-end;
-
-procedure TForm1.B48Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('4-8');
-end;
-
-procedure TForm1.B51Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('5-1');
-end;
-
-procedure TForm1.B52Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('5-2');
-end;
-
-procedure TForm1.B53Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('5-3');
-end;
-
-procedure TForm1.B54Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('5-4');
-end;
-
-procedure TForm1.B55Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('5-5');
-end;
-
-procedure TForm1.B56Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('5-6');
-end;
-
-procedure TForm1.B57Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('5-7');
-end;
-
-procedure TForm1.B58Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('5-8');
-end;
-
-procedure TForm1.B61Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('6-1');
-end;
-
-procedure TForm1.B62Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('6-2');
-end;
-
-procedure TForm1.B63Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('6-3');
-end;
-
-procedure TForm1.B64Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('6-4');
-end;
-
-procedure TForm1.B65Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('6-5');
-end;
-
-procedure TForm1.B66Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('6-6');
-end;
-
-procedure TForm1.B67Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('6-7');
-end;
-
-procedure TForm1.B68Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('6-8');
-end;
-
-procedure TForm1.B71Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('7-1');
-end;
-
-procedure TForm1.B72Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('7-2');
-end;
-
-procedure TForm1.B73Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('7-3');
-end;
-
-procedure TForm1.B74Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('7-4');
-end;
-
-procedure TForm1.B75Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('7-5');
-end;
-
-procedure TForm1.B76Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('7-6');
-end;
-
-procedure TForm1.B77Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('7-7');
-end;
-
-procedure TForm1.B78Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('7-8');
-end;
-
-procedure TForm1.B81Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('8-1');
-end;
-
-procedure TForm1.B82Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('8-2');
-end;
-
-procedure TForm1.B83Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('8-3');
-end;
-
-procedure TForm1.B84Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('8-4');
-end;
-
-procedure TForm1.B85Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('8-5');
-end;
-
-procedure TForm1.B86Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('8-6');
-end;
-
-procedure TForm1.B87Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('8-7');
-end;
-
-procedure TForm1.B88Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('8-8');
-end;
-
-procedure TForm1.FormCloseQuery(Sender: TObject; var CanClose: Boolean);
-begin
-  checkSave;
-end;
-
+// initialization
 procedure TForm1.FormCreate(Sender: TObject);
 begin
   mapStrings := TStringList.Create;
   changes := false;
 end;
 
+// set initial display parameters
 procedure TForm1.FormShow(Sender: TObject);
 begin
   Form1.Top := Screen.Height div 10;
@@ -717,6 +334,7 @@ begin
   Form3.Show;
 end;
 
+// load mapping file
 procedure TForm1.LoadMapper1Click(Sender: TObject);
 begin
   checkSave;
@@ -732,54 +350,13 @@ begin
   end;
 end;
 
-procedure TForm1.R1Click(Sender: TObject);
+// check if changed have been made before closing
+procedure TForm1.FormCloseQuery(Sender: TObject; var CanClose: Boolean);
 begin
   checkSave;
-  selectButton('R-1');
 end;
 
-procedure TForm1.R2Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('R-2');
-end;
-
-procedure TForm1.R3Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('R-3');
-end;
-
-procedure TForm1.R4Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('R-4');
-end;
-
-procedure TForm1.R5Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('R-5');
-end;
-
-procedure TForm1.R6Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('R-6');
-end;
-
-procedure TForm1.R7Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('R-7');
-end;
-
-procedure TForm1.R8Click(Sender: TObject);
-begin
-  checkSave;
-  selectButton('R-8');
-end;
-
+// sort button clicked
 procedure TForm1.Sort1Click(Sender: TObject);
 begin
   if messagedlg('Sort strings? (if you do not understand, click no)',mtInformation,mbYesNo,0) = mrYes then begin
@@ -788,48 +365,560 @@ begin
   end;
 end;
 
+// Launchpad control button clicked
+procedure TForm1.B11Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('1-1');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B12Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('1-2');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B13Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('1-3');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B14Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('1-4');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B15Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('1-5');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B16Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('1-6');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B17Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('1-7');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B18Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('1-8');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B21Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('2-1');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B22Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('2-2');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B23Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('2-3');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B24Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('2-4');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B25Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('2-5');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B26Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('2-6');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B27Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('2-7');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B28Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('2-8');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B31Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('3-1');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B32Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('3-2');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B33Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('3-3');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B34Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('3-4');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B35Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('3-5');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B36Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('3-6');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B37Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('3-7');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B38Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('3-8');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B41Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('4-1');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B42Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('4-2');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B43Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('4-3');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B44Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('4-4');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B45Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('4-5');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B46Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('4-6');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B47Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('4-7');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B48Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('4-8');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B51Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('5-1');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B52Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('5-2');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B53Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('5-3');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B54Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('5-4');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B55Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('5-5');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B56Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('5-6');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B57Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('5-7');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B58Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('5-8');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B61Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('6-1');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B62Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('6-2');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B63Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('6-3');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B64Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('6-4');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B65Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('6-5');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B66Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('6-6');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B67Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('6-7');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B68Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('6-8');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B71Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('7-1');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B72Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('7-2');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B73Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('7-3');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B74Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('7-4');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B75Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('7-5');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B76Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('7-6');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B77Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('7-7');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B78Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('7-8');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B81Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('8-1');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B82Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('8-2');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B83Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('8-3');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B84Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('8-4');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B85Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('8-5');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B86Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('8-6');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B87Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('8-7');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.B88Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('8-8');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.R1Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('R-1');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.R2Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('R-2');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.R3Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('R-3');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.R4Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('R-4');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.R5Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('R-5');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.R6Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('R-6');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.R7Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('R-7');
+end;
+
+// Launchpad control button clicked
+procedure TForm1.R8Click(Sender: TObject);
+begin
+  checkSave;
+  selectButton('R-8');
+end;
+
+// Launchpad control button clicked
 procedure TForm1.T1Click(Sender: TObject);
 begin
   checkSave;
   selectButton('T-1');
 end;
 
+// Launchpad control button clicked
 procedure TForm1.T2Click(Sender: TObject);
 begin
   checkSave;
   selectButton('T-2');
 end;
 
+// Launchpad control button clicked
 procedure TForm1.T3Click(Sender: TObject);
 begin
   checkSave;
   selectButton('T-3');
 end;
 
+// Launchpad control button clicked
 procedure TForm1.T4Click(Sender: TObject);
 begin
   checkSave;
   selectButton('T-4');
 end;
 
+// Launchpad control button clicked
 procedure TForm1.T5Click(Sender: TObject);
 begin
   checkSave;
   selectButton('T-5');
 end;
 
+// Launchpad control button clicked
 procedure TForm1.T6Click(Sender: TObject);
 begin
   checkSave;
   selectButton('T-6');
 end;
 
+// Launchpad control button clicked
 procedure TForm1.T7Click(Sender: TObject);
 begin
   checkSave;
   selectButton('T-7');
 end;
 
+// Launchpad control button clicked
 procedure TForm1.T8Click(Sender: TObject);
 begin
   checkSave;

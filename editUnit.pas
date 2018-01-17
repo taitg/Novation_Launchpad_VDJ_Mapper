@@ -82,12 +82,14 @@ implementation
 
 {$R *.dfm}
 
+// save to XML
 procedure saveStrings;
 begin
   mapStrings.SaveToFile('Novation Launchpad mapping.xml');
   changes := false;
 end;
 
+// replace strings within a given field
 procedure replaceString(field: integer);
 var
   find,rep: string;
@@ -107,37 +109,50 @@ begin
   end;
 end;
 
+// close the form
 procedure TForm3.FormClose(Sender: TObject; var Action: TCloseAction);
 begin
   Form1.Close;
 end;
 
+// show the form
 procedure TForm3.FormShow(Sender: TObject);
 begin
   Form3.Top := Form1.Top+Form1.Height+20;
   Form3.Left := Screen.Width div 2 - Form3.Width div 2;
 end;
 
+// replace button clicked
 procedure TForm3.Button10Click(Sender: TObject);
 begin
   replaceString(2);
 end;
 
+// replace button clicked
 procedure TForm3.Button11Click(Sender: TObject);
 begin
   replaceString(3);
 end;
 
+// replace button clicked
 procedure TForm3.Button12Click(Sender: TObject);
 begin
   replaceString(4);
 end;
 
+// replace button clicked
 procedure TForm3.Button13Click(Sender: TObject);
 begin
   replaceString(5);
 end;
 
+// replace button clicked
+procedure TForm3.Button9Click(Sender: TObject);
+begin
+  replaceString(1);
+end;
+
+// save button clicked
 procedure TForm3.Button1Click(Sender: TObject);
 begin
   if iB > 0 then begin
@@ -148,6 +163,7 @@ begin
   saveStrings;
 end;
 
+// save button clicked
 procedure TForm3.Button2Click(Sender: TObject);
 begin
   if iR > 0 then begin
@@ -158,7 +174,7 @@ begin
   saveStrings;
 end;
 
-
+// save button clicked
 procedure TForm3.Button3Click(Sender: TObject);
 begin
   if iA > 0 then begin
@@ -169,6 +185,7 @@ begin
   saveStrings;
 end;
 
+// save button clicked
 procedure TForm3.Button4Click(Sender: TObject);
 begin
   if iY > 0 then begin
@@ -179,6 +196,7 @@ begin
   saveStrings;
 end;
 
+// save button clicked
 procedure TForm3.Button5Click(Sender: TObject);
 begin
   if iG > 0 then begin
@@ -189,6 +207,7 @@ begin
   saveStrings;
 end;
 
+// get special character codes
 procedure TForm3.Button6Click(Sender: TObject);
 begin
   Form3.Edit6.Text := '&apos;';
@@ -204,11 +223,7 @@ begin
   Form3.Edit6.Text := '&quot;';
 end;
 
-procedure TForm3.Button9Click(Sender: TObject);
-begin
-  replaceString(1);
-end;
-
+// autosave box clicked
 procedure TForm3.CheckBox1Click(Sender: TObject);
 begin
   if not CheckBox1.Checked then begin
@@ -228,31 +243,37 @@ begin
 
 end;
 
+// text box updated
 procedure TForm3.Edit1Change(Sender: TObject);
 begin
   changes := true;
 end;
 
+// text box updated
 procedure TForm3.Edit2Change(Sender: TObject);
 begin
   changes := true;
 end;
 
+// text box updated
 procedure TForm3.Edit3Change(Sender: TObject);
 begin
   changes := true;
 end;
 
+// text box updated
 procedure TForm3.Edit4Change(Sender: TObject);
 begin
   changes := true;
 end;
 
+// text box updated
 procedure TForm3.Edit5Change(Sender: TObject);
 begin
   changes := true;
 end;
 
+// text box updated
 procedure TForm3.Edit6Change(Sender: TObject);
 begin
   Clipboard.AsText := Edit6.Text;
